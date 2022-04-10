@@ -120,7 +120,7 @@ promtQuestions()
     .then(questionData => {
 
         const readmePage = generateMarkdown(questionData)
-        fs.writeFile('./README.md', readmePage, err => {
+        fs.writeFile('./generated-file/README.md', readmePage, err => {
             if (err) {
                 console.log(err);
                 return;
