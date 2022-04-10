@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
+// main function to ask questions then  make them an object array
 const promtQuestions = () => {
     return inquirer.prompt([
         {
@@ -116,6 +117,7 @@ const promtQuestions = () => {
     ])
 };
 
+// call main function then uses the upput data the generate the README.md file.
 promtQuestions()
     .then(questionData => {
 
