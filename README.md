@@ -31,7 +31,7 @@ THEN I am taken to the corresponding section of the README
 
   ## Usage
 
-  video will go here
+  YouTube video on how it works: [https://youtu.be/ayYPY-5Q4Ng](https://youtu.be/ayYPY-5Q4Ng)
 
   ## Questions
 
